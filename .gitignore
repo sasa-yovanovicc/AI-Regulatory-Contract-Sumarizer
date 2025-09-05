@@ -1,0 +1,116 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment files (sensitive data)
+.env*
+!.env.example
+!.env.debug.example
+!.env.openai.example
+
+# API Keys and secrets
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*secret*
+*token*
+*password*
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+*.log
+*.logs
+logs/
+
+# Document files (potentially sensitive)
+*.pdf
+*.doc
+*.docx
+*.txt
+!requirements.txt
+!README.txt
+!LICENSE.txt
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+.sqlite*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Frontend
+frontend/__pycache__/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env*
+!frontend/.env.example
+
+# Streamlit
+.streamlit/
+
+# Test outputs
+test_output/
+test_results/
+coverage/
+.coverage
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Backup files
+*.bak
+*.backup
+*~

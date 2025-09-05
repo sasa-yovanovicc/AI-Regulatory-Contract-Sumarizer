@@ -1,0 +1,19 @@
+[project]
+name = "regulatory-summarizer"
+version = "0.1.0"
+description = "LLM summarizer for long regulatory PDFs"
+readme = "README.md"
+authors = ["Demo <demo@example.com>"]
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit",
+    "openai",
+    "langchain",
+    "pymupdf",
+    "python-dotenv",
+    "tiktoken",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["."]
