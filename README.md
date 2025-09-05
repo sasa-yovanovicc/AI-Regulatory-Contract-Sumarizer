@@ -12,6 +12,11 @@ LLM-powered summarization and analysis for long regulatory or contractual PDFs (
 	* **unfavorable_elements** – potentially unfavorable or high-risk clauses
 	* **conflicts** – internally conflicting or inconsistent sections
 
+## Screenshots
+![Summary of regulatory document](img/summary1.png)
+![Unfovarable clauses in Contract](img/unfovarable_clauses.png)
+![Mutual exclusive - conflict clauses in Conctract](img/conflict.png)
+
 ## Architecture
 ```
 FastAPI (REST) ← React (Vite) Frontend
